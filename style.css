@@ -1,0 +1,82 @@
+/*
+Theme Name: Adip-Child
+Author: https://github.com/mavzoleinyk
+Description: Adip-Child Theme from Template constructor
+Version: 1.0
+Template: doccer
+
+This is the child theme for Template constructor theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+/* Общие */
+.payeer{
+    margin-top: 20px;
+}
+.payeer img{
+    max-width: 270px;
+}
+.copyright{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 13/-13;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Секция акций для страницы акций */
+.actions-posts{
+    padding: 15px;
+    color: #fff;
+    position: relative;
+}
+.actions-posts::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0,0,0, .3);
+}
+.content-action-title{
+    font-size: 62px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content-action-container{
+    margin-left: 30px;
+}
+.content-action-item{
+    font-size: 24px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.content-action-item::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: -25px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+}
+/* Калькулятор */
+.section-calculator #document_calk{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section-calculator #document_calk .title_field{
+    font-size: 21px;
+    background: linear-gradient(to left, #3D88C7, #A17DC9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #3D88C7;
+}
+.section-calculator #document_calk select{
+    font-size: 21px;
+    border: 1px solid #3D88C7;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
