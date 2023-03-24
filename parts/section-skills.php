@@ -48,5 +48,6 @@
             <div class="title">Врач</div>
         </div>
     </div>
+    <a href="/vse-professii/" class="btn-std">Смотреть все</a>
     </div>
 </section>

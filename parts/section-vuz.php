@@ -44,5 +44,6 @@
                 <div class="title">МГУ</div>
             </div>
         </div>
+        <a href="/vse-vuzy/" class="btn-std">Смотреть все</a>
     </div>
 </section>

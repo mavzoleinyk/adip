@@ -16,12 +16,34 @@ This is the child theme for Template constructor theme, generated with Generate 
 .payeer img{
     max-width: 270px;
 }
-.copyright{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column: 13/-13;
+.prof__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prof__list li{
+    flex: 1 0 25%;
+}
+
+.btn-std{
+    background: linear-gradient(to left, #3D88C7, #A17DC9);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #3D88C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
     text-align: center;
-    margin-top: 20px;
+    transition: .3s;
+    cursor: pointer;
+    max-width: 25%;
+    margin: 1rem auto 0;
+    padding: 1rem;
+}
+.btn-std:hover{
+    background: white;
+    color: #3D88C7;
 }
 
 /* Секция акций для страницы акций */
@@ -60,23 +82,4 @@ This is the child theme for Template constructor theme, generated with Generate 
     width: 15px;
     height: 15px;
     background: #fff;
-}
-/* Калькулятор */
-.section-calculator #document_calk{
-    max-width: 600px;
-    margin: 0 auto;
-}
-.section-calculator #document_calk .title_field{
-    font-size: 21px;
-    background: linear-gradient(to left, #3D88C7, #A17DC9);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #3D88C7;
-}
-.section-calculator #document_calk select{
-    font-size: 21px;
-    border: 1px solid #3D88C7;
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 15px;
 }
